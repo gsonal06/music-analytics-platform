@@ -1,0 +1,5 @@
+stream_id,song_id,song_name,artist_id,artist_name,genre,country,release_date,stream_date,stream_count
+2006,6,Perfect,4,Ed Sheeran,Pop,Canada,2017-03-03,2026-09-04,7500.0
+2016,5,Shape of You,4,Ed Sheeran,Pop,India,2017-01-06,2026-09-08,-500.0
+2017,99,Unknown Song,99,Unknown Artist,Pop,India,2020-01-01,2026-09-08,5000.0
+2018,4,Blinding Lights,3,The Weeknd,R&B,India,2019-11-29,2026-09-08,

@@ -1,15 +1,26 @@
 services:
-  postgres:
+
+  db:
     image: postgres:16
     container_name: music_analytics_db
     environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: music_user
+      POSTGRES_PASSWORD: music_password
       POSTGRES_DB: music_analytics
     ports:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
+
+  api:
+    build: .
+    container_name: music_analytics_api
+    environment:
+      DB_HOST: db
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
 
 volumes:
   postgres_data:

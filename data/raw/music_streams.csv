@@ -1,0 +1,20 @@
+stream_id,song_id,song_name,artist_id,artist_name,genre,country,release_date,stream_date,stream_count
+2001,1,Tum Hi Ho,1,Arijit Singh,Bollywood,India,2013-04-01,2026-09-01,15000
+2002,1,Tum Hi Ho,1,Arijit Singh,Bollywood,United States,2013-04-01,2026-09-01,8500
+2003,2,Kesariya,1,Arijit Singh,Bollywood,India,2022-07-17,2026-09-02,12000
+2004,3,Anti-Hero,2,Taylor Swift,Pop,United States,2022-10-21,2026-09-02,22000
+2005,4,Blinding Lights,3,The Weeknd,R&B,United States,2019-11-29,2026-09-03,30000
+2006,5,Shape of You,4,Ed Sheeran,Pop,United Kingdom,2017-01-06,2026-09-03,25000
+2007,6,Perfect,4,Ed Sheeran,Pop,Canada,2017-03-03,2026-09-04,7500
+2008,7,Hello,5,Adele,Soul,United States,2015-10-23,2026-09-04,16000
+2009,8,Easy On Me,5,Adele,Soul,United Kingdom,2021-10-15,2026-09-05,19000
+2010,5,Shape of You,4,Ed Sheeran,Pop,India,2017-01-06,2026-09-05,18000
+2011,6,Perfect,4,Ed Sheeran,Pop,United Kingdom,2017-03-03,2026-09-06,21000
+2012,4,Blinding Lights,3,The Weeknd,R&B,Australia,2019-11-29,2026-09-06,11000
+2013,3,Anti-Hero,2,Taylor Swift,Pop,Canada,2022-10-21,2026-09-07,9000
+2014,8,Easy On Me,5,Adele,Soul,India,2021-10-15,2026-09-07,14000
+2015,2,Kesariya,1,Arijit Singh,Bollywood,United Kingdom,2022-07-17,2026-09-07,6000
+2006,6,Perfect,4,Ed Sheeran,Pop,Canada,2017-03-03,2026-09-04,7500
+2016,5,Shape of You,4,Ed Sheeran,Pop,India,2017-01-06,2026-09-08,-500
+2017,99,Unknown Song,99,Unknown Artist,Pop,India,2020-01-01,2026-09-08,5000
+2018,4,Blinding Lights,3,The Weeknd,R&B,India,2019-11-29,2026-09-08,
