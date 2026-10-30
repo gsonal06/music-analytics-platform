@@ -4,19 +4,17 @@ A backend-focused music streaming analytics platform built using Python, Pandas,
 
 ## Architecture
 
-CSV Dataset
-    ↓
-Pandas ETL
-    ↓
-Validation & Cleaning
-    ↓
-PostgreSQL Star Schema
-    ↓
-SQL Analytics
-    ↓
-FastAPI
-    ↓
-JSON Results
+```mermaid
+flowchart TD
+    A[CSV Dataset] --> B[Pandas ETL Pipeline]
+    B --> C[Data Validation and Cleaning]
+    C --> D[PostgreSQL Star Schema]
+    D --> E[SQL Analytics]
+    E --> F[FastAPI]
+    F --> G[JSON Responses]
+
+    H[Docker Compose] -.-> D
+    H -.-> F
 
 ## Features
 
